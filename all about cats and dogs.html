@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:  #ffccff;
+}
+
+.active {
+    background-color: #ffccff;
+    color:black;
+    font-family:segoe print ;
+}
+
+.img{
+margin-top: 0;
+margin-left: 25%;
+height:50%;
+width:50%;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+article{
+    font-family:segoe print;
+    text-align: left;
+    margin:0;
+    max-width: 60%;
+    border-width:5px;
+    margin-left: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #ffe6ff;
+    margin-top: 5%; 
+    border-color:  #d9b3ff;
+    color:black;
+    margin-top: 2%;
+    border-style: double;
+    border-radius: 100px;
+
+}
+h2{
+    font-size:60px;
+    font-family: cooper black;
+    margin-left: 22%
+}
+.im1{
+    float:right;
+    margin-top:2%;
+    border-radius: 40%;
+    width:20%;
+}
+
+
+.im3{
+    margin-top:10%;
+    border-radius: 40%;
+    width:30%;
+    margin-left:0;
+}
+
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding: 5px;
+    margin-top: 5%;
+
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button:hover {
+    background-color: #555;
+}
+h3{
+    font-family: segoe print;
+    font-size:30px;
+    margin-left: 30%;
+}
+p{
+    font-family: segoe print;
+    font-size: 15px;
+}
+.man{
+    height:200%;
+    width:30%;
+    margin-left: 30%;
+}
+
+
+
+</style>
+</head>
+<body background="original.jpg">
+<ul>
+  <li style= "font-family: segoe print;"><a href="dogs.html">About Dogs</a></li>
+  <li style= "font-family: segoe print;"><a href="cats.html">About Cats</a></li>
+  <li style= "font-family: segoe print;"><a class="active" href="All about cats and dogs.html">Home</a></li>
+</ul>
+<img src="Littlest_Pet_Shop_(2012_TV_series)_logo.png" class="img">
+<article>
+    <img src="Christmas-Dogs-Wallpaper-For-The-Smartphone.jpg" class="im1">
+    <h1>Animals are such agreeable friends - they ask no questions; they pass no criticism;</h1>
+</article>
+    <h2>ADOPT A PET NOW!</h2>
+    <div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="person_1058396.png" alt="Man icon" class="man">
+      <div class="container">
+        <h3>About Us</h3>
+        <p>We have different breeds of cats and dogs here just visit our shop at East Timawa Molo, Iloilo City located near Iloilo Doctors Hospital.</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="img_322946.png" alt="Phone icon" class="man">
+      <div class="container">
+        <h3>Contact us</h3>
+        <p>Contact us at our tel. no. (555) 555-1234. Or contact us at our Cell. #
+         Globe: 09153273323 or Smart: 09197932396</p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="open-sign.png" alt="Open sign" class="man">
+      <div class="container">
+        <h3>Store Hours</h3>
+        <p>Our shop is open from 9:00am-7:00pm (Monday- Friday) and 8:00am-6:30pm (Saturday-Sunday). We'll be glad if you visit our shop!</p>
+        
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

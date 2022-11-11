@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color:  #ffccff;
+}
+
+.active {
+    background-color: #ffccff;
+    color:black;
+    font-family:segoe print ;
+}
+.imge{
+margin-top: 0;
+margin-left: 30%;
+height:30%;
+width:30%;
+
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffe6ff;
+    padding: 20px;
+    font-family: segoe print;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+    font-family: segoe print;
+}
+h3{
+  font-family: segoe print;
+}
+
+.row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+
+}
+
+/* Clear floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Content */
+.content {
+    background-color: #ffe6ff;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+</style>
+</head>
+<body background="original.jpg">
+
+<ul>
+  <li style= "font-family: segoe print;"><a  href="dogs.html">About Dogs</a></li>
+  <li style= "font-family: segoe print;"><a class="active" href="cats.html">About Cats</a></li>
+  <li style= "font-family: segoe print;"><a href="All about cats and dogs.html">Home</a></li>
+</ul>
+<img src="cheshire-cat-clipart-transparent-887860-7024658.png" class="imge">
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>Adopt these Cats</h1>
+<hr>
+
+<h2>These are the cats that are available for adoption</h2>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="download (10).jpg" alt="russian blue" style="width:100%">
+      <h3>Russian Blue</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download.jpg" alt="persian cat" style="width:100%">
+      <h3>Persian Cat</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (1).jpg" alt="siamese" style="width:100%">
+      <h3>Siamese</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (2).jpg" alt="Scottish Fold" style="width:100%">
+      <h3>Scottish Fold</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="download (3).jpg" alt="british shorthair" style="width:100%">
+      <h3>British Shorthair</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (4).jpg" alt="Maine coon" style="width:100%">
+      <h3>Maine coon</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (5).jpg" alt="ragdoll" style="width:100%">
+      <h3>Ragdoll</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (6).jpg" alt="Sphynx cat" style="width:100%">
+      <h3>Sphynx cat</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="download (7).jpg" alt="munchkin cat" style="width:100%">
+      <h3>Munchkin cat</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (8).jpg" alt="Birman" style="width:100%">
+      <h3>Birman</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (9).jpg" alt="siberian cat" style="width:100%">
+      <h3>Siberian Cat</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="download (11).jpg" alt="chartreux" style="width:100%">
+      <h3>Chartreux</h3>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+</body>
+</html>
